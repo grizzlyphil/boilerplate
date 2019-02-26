@@ -1,6 +1,25 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+li{
+	list-style:none;
+	display: inline-block;
+	padding: 10px;
+		a{
+			display: inline-block;
+			width:150px;
+			height: 150px;
+
+			span{
+				position: absolute;
+				top:-9999em;
+				left:-9999em;
+			}
+		}
+}
+
 body {
 	background: $bgcolor;
-	color: white;
 	font-family: 'Gothic A1', sans-serif;
 }
 

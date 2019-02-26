@@ -420,9 +420,43 @@ textarea {
   padding: 0.2em 0;
 }
 
+.icon-sprite, .icon-boo, .icon-joint {
+  background-image: url('../img/icon-s0c8d87c5b0.png');
+  background-repeat: no-repeat;
+}
+
+.icon-boo {
+  background-position: 0 -150px;
+}
+.icon-boo:hover, .icon-boo.boo-hover {
+  background-position: 0 0;
+}
+
+.icon-joint {
+  background-position: 0 -450px;
+}
+.icon-joint:hover, .icon-joint.joint-hover {
+  background-position: 0 -300px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
 body {
   background: black;
-  color: white;
   font-family: 'Gothic A1', sans-serif;
 }
 
